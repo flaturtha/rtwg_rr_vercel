@@ -1,0 +1,11 @@
+/* APPLY CUSTOM STYLES HERE */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-base03 text-base3;
+  }
+}
