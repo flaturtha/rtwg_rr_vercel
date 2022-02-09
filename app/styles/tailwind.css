@@ -6,6 +6,6 @@
 
 @layer base {
   body {
-    @apply bg-base03 text-base3;
+    @apply bg-[#282c0b] bg-arrr bg-no-repeat bg-center text-[#655F4B];
   }
 }

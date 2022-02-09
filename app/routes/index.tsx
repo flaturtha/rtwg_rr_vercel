@@ -1,27 +1,18 @@
 export default function Index() {
   return (
-    <div className="container mx-auto">
-      <section className="h-40" id="hero">
-        HERO
-      </section>
-      <section className="h-40" id="clients">
-        CLIENTS
-      </section>
-      <section className="h-40" id="testimonials">
-        TESTIMONIALS
-      </section>
-      <section className="h-40" id="how-i-work">
-        HOW I WORK
-      </section>
-      <section className="h-40" id="about">
-        ABOUT ME
-      </section>
-      <section className="h-40" id="blog">
-        BLOG &amp; NEWSLETTER
-      </section>
-      <section className="h-40" id="hire-me">
-        HIRE ME!
-      </section>
-    </div>
+    <>
+      <img
+        src="/assets/arrr.png"
+        className="hidden min-h-screen mx-auto -z-50 flex items-center justify-center -my-128 mt-96"
+      />
+      <div className="min-h-screen mx-auto flex flex-col items-center justify-center">
+        <span className="mx-auto text-5xl md:text-7xl lg:text-9xl">
+          COMING SOON
+        </span>
+        <span className="mx-auto mt-2  text-3xl md:text-5xl lg:text-7xl">
+          2&middot;15&middot;2022
+        </span>
+      </div>
+    </>
   );
 }

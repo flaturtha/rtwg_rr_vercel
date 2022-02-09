@@ -10,7 +10,8 @@ export default function NavBar() {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <nav className="md:flex justify-between max-w-7xl mx-auto items-center sticky top-0 border-b-2 border-[#ffd553]">
+    // md:flex ... for nav! instead of hidden
+    <nav className="hidden md:hidden lg:hidden justify-between max-w-7xl mx-auto mb-48 items-center sticky top-0">
       <div className="flex items-center">
         {/* logo goes here */}
         <a href="/" className="flex items-center py-6 px-3">
